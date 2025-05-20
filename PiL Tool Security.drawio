@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.6">
   <diagram name="Página-1" id="Pt_wcjanGxDY51D9bgmA">
-    <mxGraphModel dx="1883" dy="2434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2225" dy="2664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,14 +117,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PtXCarbpcVjoQPvpsZYC-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.399;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#D00000;flowAnimation=1;dashed=1;strokeWidth=2;" parent="1" source="PtXCarbpcVjoQPvpsZYC-18" target="PtXCarbpcVjoQPvpsZYC-11" edge="1">
+        <mxCell id="PtXCarbpcVjoQPvpsZYC-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.387;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#D00000;flowAnimation=1;dashed=1;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="PtXCarbpcVjoQPvpsZYC-18" target="PtXCarbpcVjoQPvpsZYC-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="70" as="sourcePoint" />
             <mxPoint x="530" y="20" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="378" y="40" />
-              <mxPoint x="549" y="40" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="PtXCarbpcVjoQPvpsZYC-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.352;exitY=0.148;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#D00000;flowAnimation=1;dashed=1;exitPerimeter=0;strokeWidth=2;" parent="1" source="PtXCarbpcVjoQPvpsZYC-20" edge="1">
@@ -137,15 +133,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PtXCarbpcVjoQPvpsZYC-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;strokeColor=#D00000;flowAnimation=1;dashed=1;entryX=0.595;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="1" source="PtXCarbpcVjoQPvpsZYC-21" target="PtXCarbpcVjoQPvpsZYC-11" edge="1">
+        <mxCell id="PtXCarbpcVjoQPvpsZYC-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;strokeColor=#D00000;flowAnimation=1;dashed=1;entryX=0.569;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" parent="1" target="PtXCarbpcVjoQPvpsZYC-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="912.12" y="160.68" as="sourcePoint" />
-            <mxPoint x="575.4999999999999" y="20.000000000000163" as="targetPoint" />
+            <mxPoint x="885.34" y="142.62" as="sourcePoint" />
+            <mxPoint x="575.5" y="-29.99999999999989" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="883" y="100" />
-              <mxPoint x="820" y="100" />
-              <mxPoint x="700" y="100" />
-              <mxPoint x="576" y="100" />
+              <mxPoint x="885" y="100" />
+              <mxPoint x="573" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
