@@ -1,9 +1,231 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
-  <diagram name="Page-1" id="W5B73Z60kKT9BdXV9bhJ">
-    <mxGraphModel>
+  <diagram name="ControlPC" id="W5B73Z60kKT9BdXV9bhJ">
+    <mxGraphModel dx="6843" dy="3950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="2160" height="2630" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-3" value="PIL RTOS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#37392E;fontSize=28;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="2160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="200" width="1000" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-65" value="APPLICATION LAYER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#37392E;fontSize=28;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="140" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-73" value="Command&lt;br&gt;Handler" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="820" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-74" value="Timing&lt;br&gt;Handler" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="980" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-75" value="SREC&lt;br&gt;Parser" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1140" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-76" value="Print Buffer&lt;br&gt;Manager" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1300" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-77" value="PIL Comm&lt;br&gt;Interface" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="820" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-78" value="Core Mgmt&lt;br&gt;Services" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="980" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-79" value="Interrupt&lt;br&gt;Handler" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1140" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-80" value="&lt;div style=&quot;color: rgb(246, 246, 244); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;span&gt;RTOS KERNEL LAYER (FreeRTOS)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#37392E;fontSize=28;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="680" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-81" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="740" width="1000" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-66" value="&lt;div&gt;&lt;b&gt;Telnet Task&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Priority 2)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Stack: 1024&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-68" value="&lt;div&gt;&lt;b&gt;TTP Task&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Priority 3)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Stack: 1200&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="950" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-69" value="&lt;div&gt;&lt;b&gt;UART Task&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-70" value="&lt;div&gt;&lt;b&gt;LED Task&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Idle Prio)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Stack: 256&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-87" value="&lt;div&gt;Task&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Management&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="800" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-88" value="&lt;div&gt;Sempaphores /&amp;nbsp;&lt;/div&gt;&lt;div&gt;Mutexes&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="920" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-89" value="&lt;div&gt;Memory&lt;/div&gt;&lt;div&gt;Management&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="500" y="920" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-90" value="&lt;div&gt;Scheduler&lt;br&gt;(Preemptive)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="500" y="800" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-91" value="&lt;div&gt;???Timer Services???&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="800" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-92" value="&lt;div&gt;Queue&lt;br&gt;Management&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="920" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-94" value="Trap&lt;br&gt;Handler" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1300" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-95" value="&lt;div style=&quot;color: rgb(246, 246, 244); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span&gt;NETWORK STACK (lwIP)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#37392E;fontSize=28;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="680" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-96" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="740" width="1000" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-97" value="&lt;div&gt;&lt;b&gt;TCP/IP&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Stack&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(IPv4)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="800" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-98" value="&lt;div&gt;&lt;b&gt;Telnet&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Server&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(Port 23)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="920" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-99" value="&lt;div&gt;&lt;b&gt;Socket API&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(netconn)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="920" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-100" value="&lt;div&gt;&lt;b&gt;IP Config&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(192.168.x.x)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="800" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-102" value="&lt;div&gt;&lt;b&gt;Network&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Buffers&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(PBUF)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="920" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-103" value="&lt;div style=&quot;color: rgb(246, 246, 244); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span&gt;DRIVER LAYER&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#37392E;fontSize=28;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1100" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-104" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1160" width="1000" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-105" value="&lt;div style=&quot;color: rgb(246, 246, 244); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span&gt;HARDWARE ABSTRACTION LAYER&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#37392E;fontSize=28;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1100" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-106" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1160" width="1000" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-110" value="&lt;div&gt;&lt;b&gt;Ethernet&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Driver&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- GETH&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RGMII&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-111" value="&lt;div&gt;&lt;b&gt;UART&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Driver&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Console&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Debug&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-112" value="&lt;div&gt;&lt;b&gt;GPIO/LED&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Driver&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;- Status LEDs&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-113" value="&lt;div&gt;&lt;b&gt;PHY&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Drivers&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;RTL8211F&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DP83825&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-114" value="&lt;div&gt;&lt;b&gt;Timer&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Driver&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- GPT12&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- STM&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-115" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Memory&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Controllers&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- EMEM&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- MTU&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-119" value="&lt;div&gt;&lt;b&gt;iLLD&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(Infineon&amp;nbsp;&lt;/div&gt;&lt;div&gt;Low Level&amp;nbsp;&lt;/div&gt;&lt;div&gt;Drivers)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-120" value="&lt;div&gt;&lt;b&gt;CPU&lt;br&gt;Abstraction&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="1220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-121" value="&lt;div&gt;&lt;b&gt;Interrupt&lt;br&gt;Controller&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-122" value="&lt;div&gt;&lt;b&gt;Port I/O&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Configuration&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1330" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-123" value="&lt;div&gt;&lt;b&gt;SCU&lt;/b&gt;&lt;br&gt;(System&lt;/div&gt;&lt;div&gt;Control Unit)&lt;span style=&quot;background-color: transparent; color: light-dark(rgba(0, 0, 0, 0), rgba(237, 237, 237, 0)); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3BPort%20I%2FO%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3BConfiguration%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BtextShadow%3D0%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221340%22%20y%3D%221330%22%20width%3D%22160%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="1330" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-124" value="&lt;div&gt;&lt;b&gt;Watchdog&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Management&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1330" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-125" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1580" width="1000" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-126" value="HARDWARE LAYER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#37392E;fontSize=28;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1520" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-127" value="&lt;div&gt;&lt;b&gt;CPU 0&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Main&lt;/div&gt;&lt;div&gt;Core&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1640" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-128" value="&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CPU&amp;nbsp;&lt;/b&gt;&lt;b&gt;1&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1640" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-129" value="&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CPU&amp;nbsp;&lt;/b&gt;&lt;b&gt;2&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1640" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-130" value="&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CPU&lt;/b&gt;&lt;b&gt;&amp;nbsp;3&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1640" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-131" value="&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CPU&amp;nbsp;&lt;/b&gt;&lt;b&gt;4&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1640" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-132" value="&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CPU&amp;nbsp;&lt;/b&gt;&lt;b&gt;5&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1640" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-133" value="&lt;div&gt;&lt;b&gt;Memory System&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1800" width="670" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-134" value="&lt;div&gt;&lt;b&gt;Flash&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Memory&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1840" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-135" value="&lt;div&gt;&lt;b&gt;Program&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Cache&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1840" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-136" value="&lt;div&gt;&lt;b&gt;Data&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Cache&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1840" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-137" value="&lt;div&gt;&lt;b&gt;Local&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Memory&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1840" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-138" value="&lt;div&gt;&lt;b&gt;DSRAM&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(Data)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1920" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-139" value="&lt;div&gt;&lt;b&gt;PSRAM&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Program)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1920" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-140" value="&lt;b&gt;LMU&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Global)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgba(0, 0, 0, 0), rgba(237, 237, 237, 0)); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3BPSRAM%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BtextShadow%3D0%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22900%22%20y%3D%221920%22%20width%3D%2280%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1920" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-141" value="&lt;b&gt;External&lt;/b&gt;&lt;div&gt;&lt;b&gt;EMEM&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1920" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-142" value="&lt;div&gt;&lt;b&gt;Peripheral Modules&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="780" y="2020" width="670" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-143" value="&lt;div&gt;&lt;b&gt;GETH&lt;br&gt;Ethernet&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Controleler&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2060" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-144" value="&lt;div&gt;&lt;b&gt;UART&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Serial&lt;br&gt;Interface&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="2060" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-145" value="&lt;div&gt;&lt;b&gt;GPIO&lt;br&gt;Ports&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;I/O&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2060" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-146" value="&lt;div&gt;&lt;b&gt;Timer&lt;br&gt;System&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;(STM/GPT)&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="2060" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-147" value="EXTERNAL COMPONENTS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#37392E;fontSize=28;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="2270" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-148" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="2330" width="1000" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-149" value="&lt;div&gt;&lt;b&gt;RTL8211F&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Ethernet&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;PHY&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2390" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-150" value="&lt;div&gt;&lt;b&gt;External&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Memory&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;(EMEM)&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="2390" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NLSFxWbK6Aro3-zyanG_-151" value="&lt;div&gt;&lt;b&gt;LEDs&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Indicators&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="2390" width="160" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
