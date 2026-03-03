@@ -1,9 +1,191 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.3.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0">
   <diagram name="Page-1" id="BcMJ3d4S_bhqYYAfPOD9">
-    <mxGraphModel>
+    <mxGraphModel dx="2008" dy="1222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4oOwnGan12_DdtdEpAlL-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="900" width="1080" x="340" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;fontStyle=1;arcSize=4;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;" value="Bazel" vertex="1">
+          <mxGeometry height="630" width="890" x="452" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;align=left;verticalAlign=bottom;spacingTop=0;labelPosition=center;verticalLabelPosition=top;fontStyle=1" value="Loop over Test Definition Files" vertex="1">
+          <mxGeometry height="285" width="830" x="480" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#37392E;fontSize=28;fontStyle=0;fontColor=#FFFFFF;" value="PiL Batch v2" vertex="1">
+          <mxGeometry height="60" width="1080" x="340" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-6" edge="1" parent="1" source="4oOwnGan12_DdtdEpAlL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D00000;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="4oOwnGan12_DdtdEpAlL-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1185" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D00000;fontColor=#ffffff;strokeColor=#333333;glass=0;strokeWidth=2;shadow=1;fontStyle=1" value="CUnit Generator Batch" vertex="1">
+          <mxGeometry height="60" width="170" x="810" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-8" parent="1" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;strokeColor=#333333;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#D00000;fontStyle=1" value="Test Map File" vertex="1">
+          <mxGeometry height="60" width="120" x="1125" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-9" edge="1" parent="1" source="4oOwnGan12_DdtdEpAlL-38" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#D00000;flowAnimation=1;" target="4oOwnGan12_DdtdEpAlL-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="840" y="1160" as="sourcePoint" />
+            <mxPoint x="840" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-10" edge="1" parent="1" source="4oOwnGan12_DdtdEpAlL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#3399FF;strokeWidth=3;align=center;verticalAlign=middle;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="4oOwnGan12_DdtdEpAlL-33" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFBA08;fontColor=#ffffff;strokeColor=#333333;glass=0;strokeWidth=2;shadow=1;fontStyle=1" value="Target&lt;div&gt;Compilaton&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="810" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-12" edge="1" parent="1" source="4oOwnGan12_DdtdEpAlL-7" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#3399FF;flowAnimation=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="4oOwnGan12_DdtdEpAlL-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="764.5" y="770" as="sourcePoint" />
+            <mxPoint x="764.5" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-13" edge="1" parent="1" source="4oOwnGan12_DdtdEpAlL-44" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#3399FF;flowAnimation=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="4oOwnGan12_DdtdEpAlL-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="965" />
+            </Array>
+            <mxPoint x="775" y="800" as="sourcePoint" />
+            <mxPoint x="862" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-14" edge="1" parent="1" source="4oOwnGan12_DdtdEpAlL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#3399FF;strokeWidth=3;align=center;verticalAlign=middle;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="4oOwnGan12_DdtdEpAlL-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D00000;fontColor=#ffffff;strokeColor=#333333;glass=0;strokeWidth=2;shadow=1;fontStyle=1" value="&lt;div&gt;PiL&lt;/div&gt;Main Target Process" vertex="1">
+          <mxGeometry height="60" width="170" x="500" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-16" parent="1" style="whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=#333333;fontColor=#ffffff;rounded=1;glass=0;strokeWidth=2;shadow=1;fontStyle=1;" value="ControlPC&lt;br&gt;Transmission&lt;div&gt;Sender&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="810" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-27" edge="1" parent="1" source="4oOwnGan12_DdtdEpAlL-8" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#3399FF;flowAnimation=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="4oOwnGan12_DdtdEpAlL-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="592" y="730" as="sourcePoint" />
+            <mxPoint x="680" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D00000;fontColor=#ffffff;strokeColor=#333333;glass=0;strokeWidth=2;shadow=1;fontStyle=1" value="&lt;div&gt;Target Processor LSL file&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="570" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-29" edge="1" parent="1" source="4oOwnGan12_DdtdEpAlL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#3399FF;strokeWidth=3;align=center;verticalAlign=middle;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="4oOwnGan12_DdtdEpAlL-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="826.5" y="700" as="sourcePoint" />
+            <mxPoint x="753.5" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-30" edge="1" parent="1" source="4oOwnGan12_DdtdEpAlL-50" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#3399FF;flowAnimation=1;exitX=0.477;exitY=-0.014;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" target="4oOwnGan12_DdtdEpAlL-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="1120" />
+              <mxPoint x="938" y="1120" />
+            </Array>
+            <mxPoint x="1173" y="1190.51" as="sourcePoint" />
+            <mxPoint x="1269.9099999999999" y="909.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFBA08;fontColor=#ffffff;strokeColor=#333333;glass=0;strokeWidth=2;shadow=1;fontStyle=1" value="Common Compilation&lt;br&gt;&lt;div&gt;Unit Tests + CuT&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="810" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=#333333;glass=0;strokeWidth=2;shadow=1;fontStyle=1;fontColor=#FFFFFF;" value="PiL Packager" vertex="1">
+          <mxGeometry height="60" width="170" x="810" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-34" edge="1" parent="1" source="4oOwnGan12_DdtdEpAlL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#3399FF;strokeWidth=3;align=center;verticalAlign=middle;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="4oOwnGan12_DdtdEpAlL-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="910" y="750" as="sourcePoint" />
+            <mxPoint x="910" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-35" edge="1" parent="1" source="4oOwnGan12_DdtdEpAlL-31" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#3399FF;flowAnimation=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="4oOwnGan12_DdtdEpAlL-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1205" y="760" as="sourcePoint" />
+            <mxPoint x="1060" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-37" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="110" width="170" x="810" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-38" parent="4oOwnGan12_DdtdEpAlL-37" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#333333;fontStyle=1;shadow=1;" value="Unit Tests&lt;div&gt;(Only CUnit that run on PIL)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-39" connectable="0" parent="4oOwnGan12_DdtdEpAlL-37" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="51.43" x="60" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-40" parent="4oOwnGan12_DdtdEpAlL-39" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="" vertex="1">
+          <mxGeometry height="48" width="34.28666666666666" x="12.143194444444445" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-41" parent="4oOwnGan12_DdtdEpAlL-39" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="" vertex="1">
+          <mxGeometry height="48" width="34.28666666666666" x="5.714444444444444" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-42" parent="4oOwnGan12_DdtdEpAlL-39" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="" vertex="1">
+          <mxGeometry height="48" width="34.28666666666666" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-43" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="110" width="120" x="639" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-44" parent="4oOwnGan12_DdtdEpAlL-43" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#333333;fontStyle=1;shadow=1;" value="CuT&lt;div&gt;(Code under Test)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-45" connectable="0" parent="4oOwnGan12_DdtdEpAlL-43" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="51.43" x="34.289999999999964" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-46" parent="4oOwnGan12_DdtdEpAlL-45" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="" vertex="1">
+          <mxGeometry height="48" width="34.28666666666666" x="12.143194444444445" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-47" parent="4oOwnGan12_DdtdEpAlL-45" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="" vertex="1">
+          <mxGeometry height="48" width="34.28666666666666" x="5.714444444444444" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-48" parent="4oOwnGan12_DdtdEpAlL-45" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="" vertex="1">
+          <mxGeometry height="48" width="34.28666666666666" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-49" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="110" width="120" x="1043" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-50" parent="4oOwnGan12_DdtdEpAlL-49" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;shadow=1;" value="PiL Tests Definition&lt;div&gt;Files&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-51" connectable="0" parent="4oOwnGan12_DdtdEpAlL-49" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="51.43" x="34.289999999999964" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-52" parent="4oOwnGan12_DdtdEpAlL-51" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="" vertex="1">
+          <mxGeometry height="48" width="34.28666666666666" x="12.143194444444445" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-53" parent="4oOwnGan12_DdtdEpAlL-51" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="" vertex="1">
+          <mxGeometry height="48" width="34.28666666666666" x="5.714444444444444" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-54" parent="4oOwnGan12_DdtdEpAlL-51" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="" vertex="1">
+          <mxGeometry height="48" width="34.28666666666666" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-57" edge="1" parent="1" source="4oOwnGan12_DdtdEpAlL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D00000;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="4oOwnGan12_DdtdEpAlL-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="1035" />
+              <mxPoint x="1140" y="820" />
+            </Array>
+            <mxPoint x="955" y="995" as="sourcePoint" />
+            <mxPoint x="1160" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oOwnGan12_DdtdEpAlL-63" edge="1" parent="1" source="4oOwnGan12_DdtdEpAlL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#3399FF;strokeWidth=3;align=center;verticalAlign=middle;labelBackgroundColor=default;endArrow=classic;flowAnimation=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="4oOwnGan12_DdtdEpAlL-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="935" />
+            </Array>
+            <mxPoint x="720" y="850" as="sourcePoint" />
+            <mxPoint x="830" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
